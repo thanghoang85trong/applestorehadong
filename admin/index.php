@@ -16,7 +16,7 @@ if (empty($module) || empty($action)){
 // Tạo đường dẫn và lưu vào biến $path
 $path = 'modules/'.$module . '/' . $action . '.php';
  
-// Trường hợp URL chạy đúng
+// Trường hợp URL chạy đúng kk
 if (file_exists($path)) {
     include_once ('../libs/session.php');
     include_once ('../libs/database.php');
